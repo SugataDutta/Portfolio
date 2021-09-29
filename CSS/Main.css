@@ -24,6 +24,7 @@ body::before{
 }
 .item{
     padding-right: 2em;
+    padding-bottom:1em;
 }
 .item a{
     text-decoration: none;
