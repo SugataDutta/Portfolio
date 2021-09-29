@@ -5,13 +5,12 @@
 #navbar{
     display:flex;
     align-items: center;
-}
-header img{
-    padding:5px;
-    padding-left:20px;
-}
-header{
     margin-bottom: 2em;
+}
+#navbar img{
+    padding:5px;
+    padding-left: 20px;
+    padding-right: 100px;
 }
 body::before{
     content:"";
@@ -24,7 +23,6 @@ body::before{
     z-index: -1;
 }
 .item{
-    display:flex;
     padding-right: 2em;
 }
 .item a{
@@ -35,6 +33,7 @@ body::before{
 ul{
     display:flex;
     margin-left: auto;
+    flex-wrap:wrap;
 }
 #About_me{
     display:flex;
