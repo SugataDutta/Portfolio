@@ -18,9 +18,21 @@ body::before{
     margin-bottom: 2em;
 }
 #navbar img{
-    padding:5px;
-    padding-left: 20px;
-    padding-right: 100px;
+    padding:5px 20px;
+    animation-name:rotate;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes rotate {
+0%{
+    transform:rotate(0deg);
+}    
+5%{
+    transform:rotate(360deg);
+}
+100%{
+    transform:rotate(360deg);
+}
 }
 .item{
     padding-right: 2em;
@@ -33,6 +45,7 @@ body::before{
 #ul1{
     display:flex;
     margin-left: auto;
+    padding-left:80px;
     flex-wrap:wrap;
 }
 #hamburger{
