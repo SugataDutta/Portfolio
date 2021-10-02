@@ -114,6 +114,20 @@ h2{
     width:fit-content;
     color:rgb(134, 94, 40);
     font-size: 30px;
+    animation-name:fade;
+    animation-iteration-count: 1;
+    animation-delay:1s;
+    animation-duration:1s;
+    animation-fill-mode: forwards;
+    opacity:0;
+}
+@keyframes fade{
+    0%{
+        opacity:0;
+    }
+    100%{
+        opacity:1;
+    }
 }
 h3{
     font-size: 22px;
@@ -126,6 +140,12 @@ h3{
     border:1px solid rgb(134, 94, 40);
     border-radius:25px;
     margin:0px 4em;
+    animation-name:fade;
+    animation-iteration-count: 1;
+    animation-delay:1s;
+    animation-duration:1s;
+    animation-fill-mode: forwards;
+    opacity:0;
 }
 .ed{
     color:rgb(17, 82, 82);
