@@ -140,11 +140,11 @@ h4{
     display:block;
 }
 h2{
-    display:block;
+    display:flex;
 }
 h2{
-    margin: 2em auto 1em auto;
-    width:fit-content;
+    margin: 2em 2em 1em 2em;
+    justify-content: center;
     color:rgb(134, 94, 40);
     font-size: 30px;
     animation-name:fade;
@@ -238,14 +238,15 @@ h3{
     transform:rotate(90deg);
     position:fixed;
     left:0.7em;
-    top:11em;
+    top:15.5em;
 }
 .social{
     display:flex;
     flex-direction: column;
     position:fixed;
     left:1em;
-    top:13em;
+    top:17em;
+    z-index:-2;
 }
 .b{
     border:1px solid black;
@@ -253,7 +254,7 @@ h3{
     transform:rotate(90deg);
     position:fixed;
     left:-56.3em;
-    top:78.9em;
+    top:82.5em;
 }
 .fab, .fas{
     font-size: 25px;
