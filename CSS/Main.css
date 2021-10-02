@@ -1,6 +1,7 @@
 *{
     padding:0px;
     margin: 0px;
+    scroll-behavior: smooth;
 }
 body::before{
     content:"";
@@ -71,11 +72,11 @@ body::before{
         background-color: rgb(0, 0, 0, 0.2);
         justify-content: center;
         transition: 0.1s ease-out;
-        height:200px;
+        height:220px;
     }
     .ul1{
         flex-direction: column;
-        margin-left:0px;
+        margin:0px 100px;
     }
     .navbar img{
         padding:5px 20px;
