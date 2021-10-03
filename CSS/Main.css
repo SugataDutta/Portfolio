@@ -229,8 +229,9 @@ h3{
 #personal_details{
     height:200px;
     background-image: linear-gradient(
-      to top,rgba(0, 0, 0, 0),rgba(0, 0, 0,0.4));
+      to top,rgb(255, 255, 255),rgb(133, 133, 133));
     border-top: 1px solid rgb(151, 151, 151);
+    z-index: +2;
 }
 .a{
     border:1px solid black;
@@ -239,6 +240,7 @@ h3{
     position:fixed;
     left:0.7em;
     top:15.5em;
+    background-color: black;
 }
 .social{
     display:flex;
@@ -246,7 +248,9 @@ h3{
     position:fixed;
     left:1em;
     top:17em;
-    z-index:-2;
+}
+.social a{
+    color:black;
 }
 .b{
     border:1px solid black;
@@ -255,6 +259,7 @@ h3{
     position:fixed;
     left:-56.3em;
     top:82.5em;
+    background-color: black;
 }
 .fab, .fas{
     font-size: 25px;
