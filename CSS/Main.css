@@ -252,10 +252,12 @@ h3{
     position:fixed;
     left:1em;
     top:17em;
+    opacity:0;
     animation-name:fade;
     animation-duration: 1s;
     animation-delay:1s;
     animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 
 }
 .social a{
